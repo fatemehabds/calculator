@@ -30,10 +30,21 @@ div.main > input {
   border: unset;
   padding-left: 5px;
   color: azure;
+  border: 1px solid #b0c8f8;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}
+div.main > input:hover {
+  background-color: rgb(136, 136, 193);
 }
 ::placeholder {
-  color: #b0c8f8;
+  color: #191819;
+  font-weight: 600;
 }
+
 div.main > div.oper {
   width: 310px;
   height: 200px;
@@ -62,8 +73,16 @@ button {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   font-size: 20px;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
 }
-h1 {
+button:hover {
+  background-color: #5c527f;
+}
+h2 {
   margin-top: 20px;
   color: #6e85b2;
 }
